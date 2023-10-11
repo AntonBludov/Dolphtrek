@@ -1,0 +1,86 @@
+@import "./nullstyle";
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+}
+.header {
+  width: 100%;
+  height: 100px;
+}
+.header__row {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  padding: 10px;
+}
+.header-avatar {
+  width: 233px;
+  height: 233px;
+  border: 3px solid rgb(133, 13, 163);
+  padding: 20px;
+  background: no-repeat 10% url(../img/DreamShaper_v7_cyber_dolphin_anime_2.jpg);
+  margin-left: 65px;
+  border-radius: 90px;
+  position: absolute;
+}
+.info-animal__name {
+  color: #666;
+  display: flex;
+  width: 400px;
+
+  font-size: 20px;
+}
+.header-info__animal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  height: 260px;
+  margin: 0 0 0 305px;
+}
+.header-nav {
+}
+.header-nav__row {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 11%;
+  right: 1%;
+
+  gap: 90px;
+}
+.header-nav__menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-nav__link {
+  position: relative;
+  top: -50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  width: 120px;
+  height: 60px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid rgb(168, 17, 202);
+  box-shadow: 2px 4px 1px #666;
+  border-radius: 10%;
+  text-shadow: 2px 3px 2px rgb(0, 0, 0);
+  background-color: rgb(114, 32, 141);
+  transition: 0.8s;
+}
+.header-nav__link:hover {
+  background-color: yellow;
+  color: black;
+  text-shadow: 1px 2px 1px rgb(255, 255, 255);
+}
+.main {
+}
+.footer {
+}
